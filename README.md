@@ -20,3 +20,13 @@ Rock-Paper-Scissors е проста игра за двама играчи, пр�
 · Хартията побеждава скалата (хартията покрива скалата)
 
 Победител е играчът, чийто избор победи избора на неговия противник. Ако и двамата играчи изберат една и съща опция (напр. „хартия“), резултатът от играта е „равно“
+
+##Live Demo
+
+You can play the game directly in your Web browser here:
+
+[<img alt="Play Button" src="https://github.com/bogiignatov/rockPapperScissors/blob/main/image.png" />](https://replit.com/@bogiignatov/rockPaperScissors#rockPapperScissors.js)
+
+Може да играете играта директно през вашия Уеб браузър тук:
+
+[<img alt="Play Button" src="https://github.com/bogiignatov/rockPapperScissors/blob/main/image.png" />](https://replit.com/@bogiignatov/rockPaperScissors#rockPapperScissors.js)
