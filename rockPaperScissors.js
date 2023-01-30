@@ -4,7 +4,7 @@ function rockPaperScissors() {
     output: process.stdout,
   });
   const rock = "Rock";
-  const papper = "Paper";
+  const paper = "Paper";
   const scissors = "Scissors";
   let playerTurn = "";
   let computerTurn = "";
@@ -15,10 +15,10 @@ function rockPaperScissors() {
         playerTurn = rock;
       } else if (
         playerTurn == "p" ||
-        playerTurn == "papper" ||
-        playerTurn == "Papper"
+        playerTurn == "paper" ||
+        playerTurn == "Paper"
       ) {
-        playerTurn = papper;
+        playerTurn = paper;
       } else if (
         playerTurn == "s" ||
         playerTurn == "scissors" ||
@@ -35,7 +35,7 @@ function rockPaperScissors() {
           computerTurn = "Rock";
           break;
         case 2:
-          computerTurn = "Papper";
+          computerTurn = "Paper";
           break;
         case 3:
           computerTurn = "Scissors";
@@ -44,15 +44,15 @@ function rockPaperScissors() {
       console.log(`The computer chooses: ${computerTurn}`);
       if (
         (playerTurn === rock && computerTurn === scissors) ||
-        (playerTurn === papper && computerTurn === rock) ||
-        (playerTurn === scissors && computerTurn === papper)
+        (playerTurn === paper && computerTurn === rock) ||
+        (playerTurn === scissors && computerTurn === paper)
       ) {
         console.log("You win!");
         recursiveAsyncReadLine();
       } else if (
         (playerTurn === scissors && computerTurn === rock) ||
-        (playerTurn === rock && computerTurn === papper) ||
-        (playerTurn === papper && computerTurn === scissors)
+        (playerTurn === rock && computerTurn === paper) ||
+        (playerTurn === paper && computerTurn === scissors)
       ) {
         console.log("You lose!");
         recursiveAsyncReadLine();
